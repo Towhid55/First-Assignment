@@ -1,0 +1,64 @@
+/* Common Styles */
+body{
+    margin: 0;
+}
+
+/* header style */
+.head {
+    background: rgba(229, 84, 115, 0.10);
+    /* width: 1920px;
+    height: 850px; */
+
+}
+
+.banner {
+
+    padding: 30px 0px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 708px;
+    height: 288px;
+}
+
+.head-pic {
+
+    width: 600px;
+    height: 700px;
+
+
+}
+
+.content {
+    max-width: 700px;
+
+}
+
+.banner-description {
+    margin-top: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+}
+
+.btn-primary {
+    margin-top: 32px;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
