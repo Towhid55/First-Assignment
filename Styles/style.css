@@ -1,7 +1,27 @@
 /* Common Styles */
-body{
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
+
 }
+
+.banner-description {
+    margin-top: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+}
+
+.our-featured {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 
 /* header style */
 .head {
@@ -17,7 +37,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
 }
 
 .banner-title {
@@ -40,20 +59,14 @@ body{
 }
 
 .content {
-    max-width: 700px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    max-width: 600px;
+
 
 }
 
-.banner-description {
-    margin-top: 32px;
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    width: 634px;
-}
+
 
 .btn-primary {
     margin-top: 32px;
@@ -61,4 +74,99 @@ body{
     border-radius: 8px;
     background: #E55473;
     border: none;
+    color: #fff;
+}
+
+/* main section */
+
+.our-featured {
+    height: 100vh;
+    padding-top: 15vh;
+    text-align: center;
+    
+  }
+  
+  .featured-title {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 11px;
+  }
+  
+  .featured-des {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 35px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+  }
+  
+  .all-img {
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    gap: 20px;
+  }
+  
+  .images {
+    flex: 25%;
+    width: 40px;
+    height: 100%;
+    object-fit: contain;
+    padding: 50px 50px 0 50px;
+  }
+  
+  .img1 {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+  }
+  
+  .img2 {
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+  }
+  
+  .img3 {
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+  }
+  
+  .flower-name {
+    padding-top: 13vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .flower-name p {
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+
+
+  /* 2nd section */
+
+  .container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+    text-align: center;
+height: 500px;
+  }
+
+.hot-deal-container{
+    padding-left: 200px;
+}
+.rose{
+    padding-right: 200px;
+}
+
+span{
+    color: #E55473;
+}
+
+.btn-primary{
+    margin-top: auto;
 }
